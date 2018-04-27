@@ -1,0 +1,6 @@
+framework module Pods_Dr_Horticulture_1_0 {
+  umbrella header "Pods-Dr_Horticulture_1.0-umbrella.h"
+
+  export *
+  module * { export * }
+}

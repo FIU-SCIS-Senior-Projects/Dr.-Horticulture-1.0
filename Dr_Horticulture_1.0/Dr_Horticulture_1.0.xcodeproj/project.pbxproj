@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64D0999739EFBA9F800CA86D /* Pods_Dr_Horticulture_1_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2FFE71FE5143FAC67EAD07A /* Pods_Dr_Horticulture_1_0.framework */; };
+		842CB928208A0C960022C7F5 /* RecommendationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CB927208A0C960022C7F5 /* RecommendationViewController.swift */; };
+		843E22482076828200549A4A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E22472076828200549A4A /* SignUpViewController.swift */; };
+		843E224A20768F4B00549A4A /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E224920768F4B00549A4A /* HomePageViewController.swift */; };
+		843E224C20769FF800549A4A /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E224B20769FF800549A4A /* LogInViewController.swift */; };
+		845DCFF82061719B00ECB001 /* PlantPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DCFF72061719B00ECB001 /* PlantPickerViewController.swift */; };
+		845DCFFA2061774900ECB001 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DCFF92061774900ECB001 /* ImagePickerViewController.swift */; };
+		84A165F020517CB7006F5186 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A165EF20517CB7006F5186 /* AppDelegate.swift */; };
+		84A165F220517CB7006F5186 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A165F120517CB7006F5186 /* ViewController.swift */; };
+		84A165F520517CB7006F5186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A165F320517CB7006F5186 /* Main.storyboard */; };
+		84A165F720517CB7006F5186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A165F620517CB7006F5186 /* Assets.xcassets */; };
+		84A165FA20517CB7006F5186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A165F820517CB7006F5186 /* LaunchScreen.storyboard */; };
+		84A1660520517CB7006F5186 /* Dr_Horticulture_1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1660420517CB7006F5186 /* Dr_Horticulture_1_0Tests.swift */; };
+		84A1661020517CB7006F5186 /* Dr_Horticulture_1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1660F20517CB7006F5186 /* Dr_Horticulture_1_0UITests.swift */; };
+		84A1661E20517E87006F5186 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84A1661D20517E87006F5186 /* GoogleService-Info.plist */; };
+		84A16620205187C0006F5186 /* PlantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1661F205187C0006F5186 /* PlantModel.swift */; };
+		DA9341BEF1FB50F38B9A952C /* Pods_Dr_Horticulture_1_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33237A0D4F8B04E9154C9119 /* Pods_Dr_Horticulture_1_0Tests.framework */; };
+		F20C1AE4052967AD4FBF016C /* Pods_Dr_Horticulture_1_0UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C2EEE8D9BD621E9091B639 /* Pods_Dr_Horticulture_1_0UITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84A1660120517CB7006F5186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A165E420517CB7006F5186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A165EB20517CB7006F5186;
+			remoteInfo = Dr_Horticulture_1.0;
+		};
+		84A1660C20517CB7006F5186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A165E420517CB7006F5186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A165EB20517CB7006F5186;
+			remoteInfo = Dr_Horticulture_1.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33237A0D4F8B04E9154C9119 /* Pods_Dr_Horticulture_1_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dr_Horticulture_1_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E6BE314B62CDBDA0C665D56 /* Pods-Dr_Horticulture_1.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dr_Horticulture_1.0UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dr_Horticulture_1.0UITests/Pods-Dr_Horticulture_1.0UITests.release.xcconfig"; sourceTree = "<group>"; };
+		813544A17B1BC42F13F7D06E /* Pods-Dr_Horticulture_1.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dr_Horticulture_1.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dr_Horticulture_1.0/Pods-Dr_Horticulture_1.0.debug.xcconfig"; sourceTree = "<group>"; };
+		842CB927208A0C960022C7F5 /* RecommendationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationViewController.swift; sourceTree = "<group>"; };
+		843E22472076828200549A4A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		843E224920768F4B00549A4A /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		843E224B20769FF800549A4A /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		845DCFF72061719B00ECB001 /* PlantPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantPickerViewController.swift; sourceTree = "<group>"; };
+		845DCFF92061774900ECB001 /* ImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
+		84A165EC20517CB7006F5186 /* Dr_Horticulture_1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dr_Horticulture_1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A165EF20517CB7006F5186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84A165F120517CB7006F5186 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84A165F420517CB7006F5186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84A165F620517CB7006F5186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84A165F920517CB7006F5186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84A165FB20517CB7006F5186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A1660020517CB7006F5186 /* Dr_Horticulture_1.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dr_Horticulture_1.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A1660420517CB7006F5186 /* Dr_Horticulture_1_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dr_Horticulture_1_0Tests.swift; sourceTree = "<group>"; };
+		84A1660620517CB7006F5186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A1660B20517CB7006F5186 /* Dr_Horticulture_1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dr_Horticulture_1.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A1660F20517CB7006F5186 /* Dr_Horticulture_1_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dr_Horticulture_1_0UITests.swift; sourceTree = "<group>"; };
+		84A1661120517CB7006F5186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A1661D20517E87006F5186 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84A1661F205187C0006F5186 /* PlantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantModel.swift; sourceTree = "<group>"; };
+		B4C2EEE8D9BD621E9091B639 /* Pods_Dr_Horticulture_1_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dr_Horticulture_1_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C270CEFD62D2C9FE7E167501 /* Pods-Dr_Horticulture_1.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dr_Horticulture_1.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dr_Horticulture_1.0/Pods-Dr_Horticulture_1.0.release.xcconfig"; sourceTree = "<group>"; };
+		D06CA1F292AA06B9D1FDBC48 /* Pods-Dr_Horticulture_1.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dr_Horticulture_1.0UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dr_Horticulture_1.0UITests/Pods-Dr_Horticulture_1.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2FFE71FE5143FAC67EAD07A /* Pods_Dr_Horticulture_1_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dr_Horticulture_1_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44DDA430684C8F44640225A /* Pods-Dr_Horticulture_1.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dr_Horticulture_1.0Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dr_Horticulture_1.0Tests/Pods-Dr_Horticulture_1.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA92AD66165C2956817D1E5F /* Pods-Dr_Horticulture_1.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dr_Horticulture_1.0Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dr_Horticulture_1.0Tests/Pods-Dr_Horticulture_1.0Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84A165E920517CB7006F5186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D0999739EFBA9F800CA86D /* Pods_Dr_Horticulture_1_0.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A165FD20517CB7006F5186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9341BEF1FB50F38B9A952C /* Pods_Dr_Horticulture_1_0Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A1660820517CB7006F5186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20C1AE4052967AD4FBF016C /* Pods_Dr_Horticulture_1_0UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84A165E320517CB7006F5186 = {
+			isa = PBXGroup;
+			children = (
+				84A165EE20517CB7006F5186 /* Dr_Horticulture_1.0 */,
+				84A1660320517CB7006F5186 /* Dr_Horticulture_1.0Tests */,
+				84A1660E20517CB7006F5186 /* Dr_Horticulture_1.0UITests */,
+				84A165ED20517CB7006F5186 /* Products */,
+				AC54DD04B04A464A486909A0 /* Pods */,
+				947A1EE56B504E68D9FB8DE3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84A165ED20517CB7006F5186 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A165EC20517CB7006F5186 /* Dr_Horticulture_1.0.app */,
+				84A1660020517CB7006F5186 /* Dr_Horticulture_1.0Tests.xctest */,
+				84A1660B20517CB7006F5186 /* Dr_Horticulture_1.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A165EE20517CB7006F5186 /* Dr_Horticulture_1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				84A165EF20517CB7006F5186 /* AppDelegate.swift */,
+				84A165F120517CB7006F5186 /* ViewController.swift */,
+				84A165F320517CB7006F5186 /* Main.storyboard */,
+				843E224920768F4B00549A4A /* HomePageViewController.swift */,
+				843E224B20769FF800549A4A /* LogInViewController.swift */,
+				843E22472076828200549A4A /* SignUpViewController.swift */,
+				845DCFF72061719B00ECB001 /* PlantPickerViewController.swift */,
+				845DCFF92061774900ECB001 /* ImagePickerViewController.swift */,
+				842CB927208A0C960022C7F5 /* RecommendationViewController.swift */,
+				84A1661F205187C0006F5186 /* PlantModel.swift */,
+				84A165F620517CB7006F5186 /* Assets.xcassets */,
+				84A165F820517CB7006F5186 /* LaunchScreen.storyboard */,
+				84A165FB20517CB7006F5186 /* Info.plist */,
+				84A1661D20517E87006F5186 /* GoogleService-Info.plist */,
+			);
+			path = Dr_Horticulture_1.0;
+			sourceTree = "<group>";
+		};
+		84A1660320517CB7006F5186 /* Dr_Horticulture_1.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				84A1660420517CB7006F5186 /* Dr_Horticulture_1_0Tests.swift */,
+				84A1660620517CB7006F5186 /* Info.plist */,
+			);
+			path = Dr_Horticulture_1.0Tests;
+			sourceTree = "<group>";
+		};
+		84A1660E20517CB7006F5186 /* Dr_Horticulture_1.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				84A1660F20517CB7006F5186 /* Dr_Horticulture_1_0UITests.swift */,
+				84A1661120517CB7006F5186 /* Info.plist */,
+			);
+			path = Dr_Horticulture_1.0UITests;
+			sourceTree = "<group>";
+		};
+		947A1EE56B504E68D9FB8DE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2FFE71FE5143FAC67EAD07A /* Pods_Dr_Horticulture_1_0.framework */,
+				33237A0D4F8B04E9154C9119 /* Pods_Dr_Horticulture_1_0Tests.framework */,
+				B4C2EEE8D9BD621E9091B639 /* Pods_Dr_Horticulture_1_0UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC54DD04B04A464A486909A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				813544A17B1BC42F13F7D06E /* Pods-Dr_Horticulture_1.0.debug.xcconfig */,
+				C270CEFD62D2C9FE7E167501 /* Pods-Dr_Horticulture_1.0.release.xcconfig */,
+				F44DDA430684C8F44640225A /* Pods-Dr_Horticulture_1.0Tests.debug.xcconfig */,
+				FA92AD66165C2956817D1E5F /* Pods-Dr_Horticulture_1.0Tests.release.xcconfig */,
+				D06CA1F292AA06B9D1FDBC48 /* Pods-Dr_Horticulture_1.0UITests.debug.xcconfig */,
+				5E6BE314B62CDBDA0C665D56 /* Pods-Dr_Horticulture_1.0UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84A165EB20517CB7006F5186 /* Dr_Horticulture_1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A1661420517CB7006F5186 /* Build configuration list for PBXNativeTarget "Dr_Horticulture_1.0" */;
+			buildPhases = (
+				881E55971D1AAFA021E2CFCD /* [CP] Check Pods Manifest.lock */,
+				84A165E820517CB7006F5186 /* Sources */,
+				84A165E920517CB7006F5186 /* Frameworks */,
+				84A165EA20517CB7006F5186 /* Resources */,
+				B6F54FA189D1A7D1D047627C /* [CP] Embed Pods Frameworks */,
+				E7FE6887E2E0C042F4874A4D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dr_Horticulture_1.0;
+			productName = Dr_Horticulture_1.0;
+			productReference = 84A165EC20517CB7006F5186 /* Dr_Horticulture_1.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84A165FF20517CB7006F5186 /* Dr_Horticulture_1.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A1661720517CB7006F5186 /* Build configuration list for PBXNativeTarget "Dr_Horticulture_1.0Tests" */;
+			buildPhases = (
+				16EAB0CE1015408E211D6264 /* [CP] Check Pods Manifest.lock */,
+				84A165FC20517CB7006F5186 /* Sources */,
+				84A165FD20517CB7006F5186 /* Frameworks */,
+				84A165FE20517CB7006F5186 /* Resources */,
+				FB85F6BA2F44619731F51260 /* [CP] Embed Pods Frameworks */,
+				8A9F6A8A1135E46A5FB41C4F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84A1660220517CB7006F5186 /* PBXTargetDependency */,
+			);
+			name = Dr_Horticulture_1.0Tests;
+			productName = Dr_Horticulture_1.0Tests;
+			productReference = 84A1660020517CB7006F5186 /* Dr_Horticulture_1.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84A1660A20517CB7006F5186 /* Dr_Horticulture_1.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A1661A20517CB7006F5186 /* Build configuration list for PBXNativeTarget "Dr_Horticulture_1.0UITests" */;
+			buildPhases = (
+				F5647AC8D6A6BF2B2AA14AD8 /* [CP] Check Pods Manifest.lock */,
+				84A1660720517CB7006F5186 /* Sources */,
+				84A1660820517CB7006F5186 /* Frameworks */,
+				84A1660920517CB7006F5186 /* Resources */,
+				63D99464C585CDC36FFC6956 /* [CP] Embed Pods Frameworks */,
+				BE131C3B07A17500C0B990AB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84A1660D20517CB7006F5186 /* PBXTargetDependency */,
+			);
+			name = Dr_Horticulture_1.0UITests;
+			productName = Dr_Horticulture_1.0UITests;
+			productReference = 84A1660B20517CB7006F5186 /* Dr_Horticulture_1.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84A165E420517CB7006F5186 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					84A165EB20517CB7006F5186 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					84A165FF20517CB7006F5186 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84A165EB20517CB7006F5186;
+					};
+					84A1660A20517CB7006F5186 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84A165EB20517CB7006F5186;
+					};
+				};
+			};
+			buildConfigurationList = 84A165E720517CB7006F5186 /* Build configuration list for PBXProject "Dr_Horticulture_1.0" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84A165E320517CB7006F5186;
+			productRefGroup = 84A165ED20517CB7006F5186 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84A165EB20517CB7006F5186 /* Dr_Horticulture_1.0 */,
+				84A165FF20517CB7006F5186 /* Dr_Horticulture_1.0Tests */,
+				84A1660A20517CB7006F5186 /* Dr_Horticulture_1.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84A165EA20517CB7006F5186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A165FA20517CB7006F5186 /* LaunchScreen.storyboard in Resources */,
+				84A1661E20517E87006F5186 /* GoogleService-Info.plist in Resources */,
+				84A165F720517CB7006F5186 /* Assets.xcassets in Resources */,
+				84A165F520517CB7006F5186 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A165FE20517CB7006F5186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A1660920517CB7006F5186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16EAB0CE1015408E211D6264 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dr_Horticulture_1.0Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63D99464C585CDC36FFC6956 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dr_Horticulture_1.0UITests/Pods-Dr_Horticulture_1.0UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		881E55971D1AAFA021E2CFCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dr_Horticulture_1.0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A9F6A8A1135E46A5FB41C4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dr_Horticulture_1.0Tests/Pods-Dr_Horticulture_1.0Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6F54FA189D1A7D1D047627C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Dr_Horticulture_1.0/Pods-Dr_Horticulture_1.0-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dr_Horticulture_1.0/Pods-Dr_Horticulture_1.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE131C3B07A17500C0B990AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dr_Horticulture_1.0UITests/Pods-Dr_Horticulture_1.0UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7FE6887E2E0C042F4874A4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Dr_Horticulture_1.0/Pods-Dr_Horticulture_1.0-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dr_Horticulture_1.0/Pods-Dr_Horticulture_1.0-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5647AC8D6A6BF2B2AA14AD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dr_Horticulture_1.0UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB85F6BA2F44619731F51260 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dr_Horticulture_1.0Tests/Pods-Dr_Horticulture_1.0Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84A165E820517CB7006F5186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843E22482076828200549A4A /* SignUpViewController.swift in Sources */,
+				843E224A20768F4B00549A4A /* HomePageViewController.swift in Sources */,
+				84A165F220517CB7006F5186 /* ViewController.swift in Sources */,
+				842CB928208A0C960022C7F5 /* RecommendationViewController.swift in Sources */,
+				845DCFFA2061774900ECB001 /* ImagePickerViewController.swift in Sources */,
+				843E224C20769FF800549A4A /* LogInViewController.swift in Sources */,
+				84A16620205187C0006F5186 /* PlantModel.swift in Sources */,
+				845DCFF82061719B00ECB001 /* PlantPickerViewController.swift in Sources */,
+				84A165F020517CB7006F5186 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A165FC20517CB7006F5186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A1660520517CB7006F5186 /* Dr_Horticulture_1_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A1660720517CB7006F5186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A1661020517CB7006F5186 /* Dr_Horticulture_1_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84A1660220517CB7006F5186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84A165EB20517CB7006F5186 /* Dr_Horticulture_1.0 */;
+			targetProxy = 84A1660120517CB7006F5186 /* PBXContainerItemProxy */;
+		};
+		84A1660D20517CB7006F5186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84A165EB20517CB7006F5186 /* Dr_Horticulture_1.0 */;
+			targetProxy = 84A1660C20517CB7006F5186 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84A165F320517CB7006F5186 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A165F420517CB7006F5186 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84A165F820517CB7006F5186 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A165F920517CB7006F5186 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84A1661220517CB7006F5186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84A1661320517CB7006F5186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84A1661520517CB7006F5186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 813544A17B1BC42F13F7D06E /* Pods-Dr_Horticulture_1.0.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dr_Horticulture_1.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jose.Dr-Horticulture-1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84A1661620517CB7006F5186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C270CEFD62D2C9FE7E167501 /* Pods-Dr_Horticulture_1.0.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dr_Horticulture_1.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jose.Dr-Horticulture-1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84A1661820517CB7006F5186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F44DDA430684C8F44640225A /* Pods-Dr_Horticulture_1.0Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dr_Horticulture_1.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jose.Dr-Horticulture-1-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dr_Horticulture_1.0.app/Dr_Horticulture_1.0";
+			};
+			name = Debug;
+		};
+		84A1661920517CB7006F5186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA92AD66165C2956817D1E5F /* Pods-Dr_Horticulture_1.0Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dr_Horticulture_1.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jose.Dr-Horticulture-1-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dr_Horticulture_1.0.app/Dr_Horticulture_1.0";
+			};
+			name = Release;
+		};
+		84A1661B20517CB7006F5186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D06CA1F292AA06B9D1FDBC48 /* Pods-Dr_Horticulture_1.0UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dr_Horticulture_1.0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jose.Dr-Horticulture-1-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dr_Horticulture_1.0;
+			};
+			name = Debug;
+		};
+		84A1661C20517CB7006F5186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E6BE314B62CDBDA0C665D56 /* Pods-Dr_Horticulture_1.0UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dr_Horticulture_1.0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jose.Dr-Horticulture-1-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dr_Horticulture_1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84A165E720517CB7006F5186 /* Build configuration list for PBXProject "Dr_Horticulture_1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A1661220517CB7006F5186 /* Debug */,
+				84A1661320517CB7006F5186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A1661420517CB7006F5186 /* Build configuration list for PBXNativeTarget "Dr_Horticulture_1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A1661520517CB7006F5186 /* Debug */,
+				84A1661620517CB7006F5186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A1661720517CB7006F5186 /* Build configuration list for PBXNativeTarget "Dr_Horticulture_1.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A1661820517CB7006F5186 /* Debug */,
+				84A1661920517CB7006F5186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A1661A20517CB7006F5186 /* Build configuration list for PBXNativeTarget "Dr_Horticulture_1.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A1661B20517CB7006F5186 /* Debug */,
+				84A1661C20517CB7006F5186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84A165E420517CB7006F5186 /* Project object */;
+}
